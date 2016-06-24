@@ -1,0 +1,7 @@
+{% assign children = site.components | where: 'parent', include.parent | sort: 'order' %}
+{% for child in children %}
+<section id="{{ child.slug }}">
+  <h3 class="usa-heading heading-margin-alt" id="{{ child.title | slugify }}">{{ child.title }}</h3>
+  {{ child.content }}
+</section>
+{% endfor %}
