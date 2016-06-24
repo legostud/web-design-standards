@@ -4,6 +4,7 @@ type: component
 title: Footers
 subheading: UI components
 lead: Footers serve site visitors who arrive at the bottom of a page without finding what they want.
+maturity: beta
 ---
 
 <div class="preview">
@@ -81,7 +82,7 @@ lead: Footers serve site visitors who arrive at the bottom of a page without fin
                 <image xlink:href="{{ site.baseurl }}/assets/img/social-icons/svg/facebook25.svg" src="{{ site.baseurl }}/assets/img/social-icons/png/facebook25.png" width="26" height="39" />
               </svg>
             </a>
-            <a href="#">            
+            <a href="#">
               <svg width="26" height="39" role="img" aria-label="Twitter">
                 <title>Twitter</title>
                 <image xlink:href="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" src="{{ site.baseurl }}/assets/img/social-icons/png/twitter16.png" width="26" height="39" />
@@ -135,7 +136,7 @@ lead: Footers serve site visitors who arrive at the bottom of a page without fin
             </li>
             <li class="usa-width-one-sixth usa-footer-primary-content">
               <a class="usa-footer-primary-link" href="#">Primary link</a>
-            </li>                    
+            </li>
           </ul>
         </nav>
       </div>
@@ -156,7 +157,7 @@ lead: Footers serve site visitors who arrive at the bottom of a page without fin
                 <image xlink:href="{{ site.baseurl }}/assets/img/social-icons/svg/facebook25.svg" src="{{ site.baseurl }}/assets/img/social-icons/png/facebook25.png" width="26" height="39" />
               </svg>
             </a>
-            <a href="#">            
+            <a href="#">
               <svg width="26" height="39" role="img" aria-label="Twitter">
                 <title>Twitter</title>
                 <image xlink:href="{{ site.baseurl }}/assets/img/social-icons/svg/twitter16.svg" src="{{ site.baseurl }}/assets/img/social-icons/png/twitter16.png" width="26" height="39" />
