@@ -10,6 +10,9 @@
       </a>
     </div>
   {% endif %}
+  {% if child.lead != null %}
+    <p class="usa-font-lead">{{ child.lead }}</p>
+  {% endif %}
   {{ child.content }}
 </section>
 {% endfor %}
